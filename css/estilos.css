@@ -136,37 +136,28 @@ a:hover {
     
 }
 
-div h3 {
-    color:#000;
-    font-size: 18px;
-    font-family: 'Londrina Solid', cursive;
-}
-
-.aside-ubication {
-    background-color:#24b69e;
-    display: inline-block;
-    padding: 40px;
-    margin: 30px;
-    width: 300px;
+.aside-container{
+    background-color: #24b69e;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
     border-radius: 5px;
-    position: relative;
-    top: 20px;
-    left: 20px;
-    
-
-
+    margin: 50px 50px 20px 20px;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    float: left;  
 }
-.aside-contact {
-    background-color: #24b69e; 
-    display: inline-block;
-    padding: 40px;
-    margin: 30px;
-    border-radius: 5px;
-    position: relative;
-    top: 20px;
-    left: 20px;
-    
-    
+.title_aside{
+    font-size: 25px;
+  }
+  .icon {
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+.item_aside{
+    font-size: 20px;
 }
 
 footer {
@@ -218,7 +209,7 @@ footer {
     border-radius: 8px;
 }
 .form {
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Fredoka One', cursive;/* arreglar tipografia*/ 
     min-width: 400px;
     flex: 1;
     text-align: center;
@@ -250,7 +241,7 @@ footer {
     
 }
 .form_bottom{
-    width: 100%;
+    width: 50%;
     padding: 7px;
     margin: 6px 0px;
     background-color: #000;
