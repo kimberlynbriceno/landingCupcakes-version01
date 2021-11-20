@@ -8,7 +8,7 @@ nav {
     background-color: rgba(53, 228, 199, 0.659) ;
     /* background-color: #000; */
     width: 100vw;
-    height: 10vh;
+    height: 13vh;
 
 
 }
@@ -27,37 +27,41 @@ nav {
     left: 10px;
     bottom: 10px;
     color: #f52072;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Fredoka One', cursive;
 
 }
 
 .input-header {
+    background: transparent;
     line-height: 1.5;
-    border-radius: 8px;
     border: 0px ;
-    padding: 5px 10px;
+    border-bottom: 2px solid #000;
+    padding: 7px ;
     position: relative;
     left: 10%;
-    bottom: 7px;
+    top: -25px;
+    outline: none;
 
 }
 .boton {
+    color: #fff;
+    background-color: #000;
     line-height: 1.5;
+    border: 0px;
     border-radius: 8px;
-    border: 2px solid grey;
     padding: 3px 7px;
     position: relative;
     left: 10%;
-    bottom: 7px;
+    top: -25px;
 }
 a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
     padding: 5px;
 
 }
 a:hover {
-    color: #888;
+    color: #fff;
     text-decoration: none;
     padding: 5px;
 }
@@ -66,6 +70,7 @@ a:hover {
     display: inline-block;
     position: relative;
     left: 20%;
+    top: -20px;
     font-family:  'Londrina Solid', cursive;
     font-size: 20px;
     color: #f52072;
@@ -75,25 +80,25 @@ a:hover {
 .lista-principal{
     background-color: #24b69e; 
     display: inline-block;
-    width: 170px;
+    width: 200px;
     height: 600px;
     border-radius: 8px;
     position: absolute;
-    top: 120px;
-    left: 30px;
+    top: 130px;
+    left: 60px;
 
 
 }
 .encabezado {
     background-color: #f52072;
     color: #fff;
+    font-family: 'Fredoka One', cursive;
     padding: 5px;
     text-align: center;
     border-radius: 8px ;
 }
 .encabezado:hover {
-    background-color: #f52072;
-    color: rgb(124, 124, 151);
+    color: #000;
     padding: 5px;
     text-align: center;
 }
@@ -103,9 +108,6 @@ a:hover {
     font-family:'Londrina Solid', cursive; ;
     text-align: center;
     color: #fff;
-
-
-
 }
  
 .text-principal {
@@ -115,7 +117,7 @@ a:hover {
     font-family: 'Fredoka One', cursive; 
     display: inline-block;
     position: absolute;
-    left: 300px;
+    left: 420px;
     top: 220px;
     
     
@@ -123,11 +125,11 @@ a:hover {
 
 }
 .img-comiendo {
-    width: 600px;
+    width: 700px;
     height: 600px;
     position: relative;
-    top: 50px;
-    left: 220px;
+    top: 40px;
+    left: 300px;
     display: inline-block;
     border-radius: 8px;
     margin-bottom: 20px;
@@ -135,10 +137,9 @@ a:hover {
 }
 
 div h3 {
-    color:#fff;
+    color:#000;
     font-size: 18px;
     font-family: 'Londrina Solid', cursive;
-
 }
 
 .aside-ubication {
@@ -217,6 +218,7 @@ footer {
     border-radius: 8px;
 }
 .form {
+    font-family: 'Fredoka One', cursive;
     min-width: 400px;
     flex: 1;
     text-align: center;
@@ -226,105 +228,57 @@ footer {
 .form_input{
     width: 100%;
     padding: 7px;
-    margin: 9px 0px;
+    margin: 6px 0px;
     background-color: #f52072;
-    border: 0px solid #000;
+    color:#fff ;
+    border: none;
     border-bottom: 2px solid #000;
     outline: none;
 
 }
-.form_boton{
-    width: 40%;
+.form_text{
+    min-height: 150px;
+    width: 100%;
     padding: 7px;
-    margin: 10px 15px; 
+    margin: 6px 0px;
+    background-color: #f52072;
+    color: #fff;
+    border: none;
+    border-bottom: 2px solid #000;
+    outline : none;
+    resize: none;
     
 }
+.form_bottom{
+    width: 100%;
+    padding: 7px;
+    margin: 6px 0px;
+    background-color: #000;
+    color: #fff;
+    border: 0px;
+}
+.form_input:hover {
+    background-color:  #222;
+    border-bottom: 2px solid #aaa; 
+}
+.form_text:hover {
+    background-color:  #222;
+    border-bottom: 2px solid #aaa; 
+}
 
-.img-micuenta{
+.img-contactanos{
     flex: 1;
     padding: 10px;
     display: flex;
     border-radius: 8px;
+    min-width: 300px;
 }
 
-.img-comiendo img{
+.img-contactanos img{
     width: 100%;
     border-radius: 8px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*.caja-inicioseccion {
-    width: 45vw;
-    height: 70vh;
-    background-color: #fd81b1;
-    border-radius: 8px;
-    display: inline-block;
-    position: relative;
-    top: 60px;
-    left: 30px;
-}
-.caja-inicioseccion h2{
-    color: #f52072;
-    font-size: 35px;
-    font-family: 'Londrina Solid', cursive ;
-    text-align: center;
-    padding:20px ;
-}
-.caja-inicioseccion .container{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    display: inline-block;
-    border-radius: 8px;
-    padding: 5px 10px;
-    margin: 10px 120px;
-    line-height: 1.5;
-    border: 0px solid #24b69e;
-}
-.caja-inicioseccion .boton{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    display: block;
-    border-radius: 8px;
-    padding: 5px 10px;
-    margin: 10PX 75px;
-    line-height: 1.5;
-    border: 2px solid #f52072 ;
-    
-    
-} 
-
-
-.img-micuenta{
-    width: 450px;
-    height: 450px;
-    position: relative;
-    left: 540px;
-    top: -400px;
-    display: inline-block;
-    border-radius: 8px;
-    border: 0px solid grey;
-
-}
-.img-micuenta .img-come {
-    width: 100%;
-    height: 100%;
-    border-radius: 8px;
-
-}
     
 
 
