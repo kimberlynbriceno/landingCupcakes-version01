@@ -32,8 +32,9 @@ nav {
 }
 
 .input-header {
-    background: transparent;
+    background-color: #fff;
     line-height: 1.5;
+    border-radius: 8px;
     border: 0px ;
     border-bottom: 2px solid #000;
     padding: 7px ;
@@ -84,7 +85,7 @@ a:hover {
     height: 600px;
     border-radius: 8px;
     position: absolute;
-    top: 130px;
+    top: 140px;
     left: 60px;
 
 
@@ -263,8 +264,6 @@ a:hover {
 }
 
     
-
-
 
 
 footer {
