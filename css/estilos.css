@@ -123,8 +123,8 @@ a:hover {
     font-family: 'Fredoka One', cursive; 
     display: inline-block;
     position: absolute;
-    left: 420px;
-    top: 220px;
+    left: 500px;
+    top: 170px;
     z-index: 32;
 
 }
@@ -181,7 +181,7 @@ article{
 
 .h1-nuestrotrabajo {
     color: #f52072;
-    font-family: 'Londrina Solid', cursive;
+    font-family:'Fredoka One', cursive; 
     display: inline-block;
     position: relative;
     left: 350px;
@@ -295,6 +295,40 @@ footer {
     bottom: 0px;
    
 }
+.box-little{
+    background-color: #24b69e;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    border-radius: 5px;
+    margin: 70px 50px 50px 50px;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    text-align: justify;
+    color:#000;
+    float: left; 
+    position: relative;
+    left: 20px;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 20px;
+    z-index: 40;}
+.box-big{
+    background-color: #24b69e;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    border-radius: 5px;
+    margin: 70px 40px 40px 40px;
+    width: 900px;
+    height: 140px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    float: left; 
+    position: relative;
+    left: 20px;
+    font-family: 'Londrina Solid', cursive;;
+    font-size: 20px;
+    z-index: 40;
+}    
+
 
 
 
