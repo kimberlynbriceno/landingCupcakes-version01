@@ -309,7 +309,7 @@ footer {
     position: relative;
     left: 20px;
     font-family: 'Londrina Solid', cursive;
-    font-size: 20px;
+    font-size: 22px;
     z-index: 40;}
 .box-big{
     background-color: #24b69e;
@@ -325,9 +325,10 @@ footer {
     position: relative;
     left: 20px;
     font-family: 'Londrina Solid', cursive;;
-    font-size: 20px;
+    font-size: 22px;
     z-index: 40;
 }    
+
 
 
 
