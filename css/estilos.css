@@ -3,11 +3,12 @@
     margin: 0px;
 }
 
-body{
+body {
     padding: 100px 0px;
 }
+
 nav {
-    background-color: rgba(53, 228, 199) ;
+    background-color: rgba(53, 228, 199);
     width: 100vw;
     height: 13vh;
     position: fixed;
@@ -17,12 +18,12 @@ nav {
 }
 
 [logo="head"] {
-     border-radius: 100px;
+    border-radius: 100px;
     position: relative;
     top: 8px;
     left: 8px;
-    }
-     
+}
+
 .div-logo {
     display: inline-block;
     position: relative;
@@ -37,15 +38,15 @@ nav {
     background-color: #fff;
     line-height: 1.5;
     border-radius: 8px;
-    border: 0px ;
+    border: 0px;
     border-bottom: 2px solid #000;
-    padding: 7px ;
+    padding: 7px;
     position: relative;
     left: 10%;
     top: -25px;
     outline: none;
-
 }
+
 .boton {
     color: #fff;
     background-color: #000;
@@ -57,12 +58,13 @@ nav {
     left: 10%;
     top: -25px;
 }
+
 a {
     color: #000;
     text-decoration: none;
     padding: 5px;
-
 }
+
 a:hover {
     color: #fff;
     text-decoration: none;
@@ -74,14 +76,13 @@ a:hover {
     position: relative;
     left: 20%;
     top: -20px;
-    font-family:  'Londrina Solid', cursive;
+    font-family: 'Londrina Solid', cursive;
     font-size: 20px;
     color: #f52072;
-    
-
 }
-.lista-principal{
-    background-color: #24b69e; 
+
+.lista-principal {
+    background-color: #24b69e;
     display: inline-block;
     width: 240px;
     height: 600px;
@@ -91,42 +92,42 @@ a:hover {
     left: 60px;
     z-index: 30;
     font-size: 20px;
-
-
 }
+
 .encabezado {
     background-color: #f52072;
     color: #fff;
     font-family: 'Fredoka One', cursive;
     padding: 5px;
     text-align: center;
-    border-radius: 8px ;
+    border-radius: 8px;
 }
+
 .encabezado:hover {
     color: #000;
     padding: 5px;
     text-align: center;
 }
+
 .lista-ul {
     font-size: 20px;
     padding: 5px;
-    font-family:'Londrina Solid', cursive; ;
+    font-family: 'Londrina Solid', cursive;
+    ;
     text-align: center;
     color: #fff;
-    
 }
- 
+
 .text-principal {
     color: #f52072;
     font-size: 30px;
     font-weight: 900;
-    font-family: 'Fredoka One', cursive; 
+    font-family: 'Fredoka One', cursive;
     display: inline-block;
     position: absolute;
     left: 500px;
     top: 170px;
     z-index: 32;
-
 }
 
 .img-comiendo {
@@ -139,16 +140,16 @@ a:hover {
     border-radius: 8px;
     margin-bottom: 20px;
     z-index: 31;
-    
 }
-article{
+
+article {
     position: relative;
     left: 20px;
 }
 
-.aside-container{
+.aside-container {
     background-color: #24b69e;
-    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
     border-radius: 5px;
     margin: 70px 60px 60px 60px;
     width: 200px;
@@ -156,24 +157,28 @@ article{
     padding: 20px;
     text-align: center;
     color: white;
-    float: left; 
+    float: left;
     position: relative;
     left: 20px;
-    font-family: 'Londrina Solid', cursive;;
+    font-family: 'Londrina Solid', cursive;
+    ;
     z-index: 40;
-    
 }
-.title_aside{
+
+.title_aside {
     font-size: 25px;
-  }
-  .icon {
+}
+
+.icon {
     position: relative;
     left: 80px;
     top: 10px;
     width: 50px;
     height: 50px;
 }
-.item_aside, span{
+
+.item_aside,
+span {
     margin-top: -10px;
     font-size: 20px;
     font-family: 'Londrina Solid', cursive;
@@ -181,7 +186,7 @@ article{
 
 .h1-nuestrotrabajo {
     color: #f52072;
-    font-family:'Fredoka One', cursive; 
+    font-family: 'Fredoka One', cursive;
     display: inline-block;
     position: relative;
     left: 350px;
@@ -191,19 +196,17 @@ article{
     margin: 15px;
     display: flex;
     flex-wrap: wrap;
-
-    
-
 }
+
 .caja div {
     width: 200px;
     height: 200px;
     border: 4px solid grey;
     display: inline;
     margin: 10px;
-
 }
-.caja div img{
+
+.caja div img {
     object-fit: cover;
     width: 100%;
     height: 100%;
@@ -218,26 +221,29 @@ article{
     margin: 50px 30px;
     border-radius: 8px;
 }
+
 .form {
-    font-family: 'Fredoka One', cursive;/* arreglar tipografia*/ 
+    font-family: 'Fredoka One', cursive;
+    /* arreglar tipografia*/
     min-width: 400px;
     flex: 1;
     text-align: center;
     padding: 30px;
- 
 }
-.form_input{
+
+.form_input {
     width: 100%;
     padding: 7px;
     margin: 6px 0px;
     background-color: #f52072;
-    color:#fff ;
+    color: #fff;
     border: none;
     border-bottom: 2px solid #000;
     outline: none;
     font-family: 'Londrina Solid', cursive0;
 }
-.form_text{
+
+.form_text {
     min-height: 150px;
     width: 100%;
     padding: 7px;
@@ -246,11 +252,11 @@ article{
     color: #fff;
     border: none;
     border-bottom: 2px solid #000;
-    outline : none;
+    outline: none;
     resize: none;
-    
 }
-.form_bottom{
+
+.form_bottom {
     width: 50%;
     padding: 7px;
     margin: 6px 0px;
@@ -259,16 +265,18 @@ article{
     border: 0px;
     border-radius: 8px;
 }
+
 .form_input:hover {
-    background-color:  #222;
-    border-bottom: 2px solid #aaa; 
-}
-.form_text:hover {
-    background-color:  #222;
-    border-bottom: 2px solid #aaa; 
+    background-color: #222;
+    border-bottom: 2px solid #aaa;
 }
 
-.img-contactanos{
+.form_text:hover {
+    background-color: #222;
+    border-bottom: 2px solid #aaa;
+}
+
+.img-contactanos {
     flex: 1;
     padding: 10px;
     display: flex;
@@ -276,44 +284,43 @@ article{
     min-width: 300px;
 }
 
-.img-contactanos img{
+.img-contactanos img {
     width: 100%;
     border-radius: 8px;
 }
 
-    
-
-
 footer {
     color: #fff;
     padding: 5px 400px;
-    background-color: #f52072 ;
+    background-color: #f52072;
     width: 100vw;
     height: 5vh;
     font-family: 'Londrina Solid', cursive;
     position: fixed;
     bottom: 0px;
-   
 }
-.box-little{
+
+.box-little {
     background-color: #24b69e;
-    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
     border-radius: 5px;
     margin: 70px 50px 50px 50px;
     width: 400px;
     height: 200px;
     padding: 20px;
     text-align: justify;
-    color:#000;
-    float: left; 
+    color: #000;
+    float: left;
     position: relative;
     left: 20px;
     font-family: 'Londrina Solid', cursive;
     font-size: 22px;
-    z-index: 40;}
-.box-big{
+    z-index: 40;
+}
+
+.box-big {
     background-color: #24b69e;
-    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
     border-radius: 5px;
     margin: 40px 50px;
     width: 950px;
@@ -321,25 +328,11 @@ footer {
     padding: 20px;
     text-align: justify;
     color: white;
-    float: left; 
+    float: left;
     position: relative;
     left: 20px;
-    font-family: 'Londrina Solid', cursive;;
+    font-family: 'Londrina Solid', cursive;
+    ;
     font-size: 22px;
     z-index: 40;
-}    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+}
